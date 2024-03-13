@@ -1,0 +1,167 @@
+{
+    "cidades": [
+      {
+        "nome": "Aracaju",
+        "estado": "SE",
+        "latitude": 10.54,
+        "longitude": 37.04
+      },
+      {
+        "nome": "Belém",
+        "estado": "PA",
+        "latitude": 1.27,
+        "longitude": 48.30
+      },
+      {
+        "nome": "Belo Horizonte",
+        "estado": "MG",
+        "latitude": 19.55,
+        "longitude": 43.56
+      },
+      {
+        "nome": "Boa Vista",
+        "estado": "RR",
+        "latitude": 2.49,
+        "longitude": 60.40
+      },
+      {
+        "nome": "Brasília",
+        "estado": "DF",
+        "latitude": 15.46,
+        "longitude": 47.55
+      },
+      {
+        "nome": "Campo Grande",
+        "estado": "MS",
+        "latitude": 20.26,
+        "longitude": 54.38
+      },
+      {
+        "nome": "Cuiabá",
+        "estado": "MT",
+        "latitude": 15.35,
+        "longitude": 56.05
+      },
+      {
+        "nome": "Curitiba",
+        "estado": "PR",
+        "latitude": 25.25,
+        "longitude": 49.16
+      },
+      {
+        "nome": "Florianópolis",
+        "estado": "SC",
+        "latitude": 27.35,
+        "longitude": 48.32
+      },
+      {
+        "nome": "Fortaleza",
+        "estado": "CE",
+        "latitude": 3.43,
+        "longitude": 38.32
+      },
+      {
+        "nome": "Goiânia",
+        "estado": "GO",
+        "latitude": 16.40,
+        "longitude": 49.15
+      },
+      {
+        "nome": "João Pessoa",
+        "estado": "PB",
+        "latitude": 7.06,
+        "longitude": 34.51
+      },
+      {
+        "nome": "Macapá",
+        "estado": "AP",
+        "latitude": 0.02,
+        "longitude": 51.03
+      },
+      {
+        "nome": "Maceió",
+        "estado": "AL",
+        "latitude": 9.39,
+        "longitude": 35.44
+      },
+      {
+        "nome": "Manaus",
+        "estado": "AM",
+        "latitude": 3.06,
+        "longitude": 60.01
+      },
+      {
+        "nome": "Natal",
+        "estado": "RN",
+        "latitude": 5.47,
+        "longitude": 35.12
+      },
+      {
+        "nome": "Palmas",
+        "estado": "TO",
+        "latitude": 10.12,
+        "longitude": 48.21
+      },
+      {
+        "nome": "Porto Alegre",
+        "estado": "RS",
+        "latitude": 30.01,
+        "longitude": 51.13
+      },
+      {
+        "nome": "Porto Velho",
+        "estado": "RO",
+        "latitude": 8.45,
+        "longitude": 63.54
+      },
+      {
+        "nome": "Recife",
+        "estado": "PE",
+        "latitude": 8.03,
+        "longitude": 34.52
+      },
+      {
+        "nome": "Rio Branco",
+        "estado": "AC",
+        "latitude": 9.58,
+        "longitude": 67.48
+      },
+      {
+        "nome": "Rio de Janeiro",
+        "estado": "RJ",
+        "latitude": 22.54,
+        "longitude": 43.12
+      },
+      {
+        "nome": "Salvador",
+        "estado": "BA",
+        "latitude": 12.58,
+        "longitude": 38.30
+      },
+      {
+        "nome": "São Luís",
+        "estado": "MA",
+        "latitude": 2.31,
+        "longitude": 44.18
+      },
+      {
+        "nome": "São Paulo",
+        "estado": "SP",
+        "latitude": 23.32,
+        "longitude": 46.38
+      },
+      {
+        "nome": "Teresina",
+        "estado": "PI",
+        "latitude": 5.05,
+        "longitude": 42.48
+      },
+      {
+        "nome": "Vitória",
+        "estado": "ES",
+        "latitude": 20.19,
+        "longitude": 40.20
+      }
+    ]
+  }
+  
