@@ -1,13 +1,33 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { ClimaService } from './services/clima-service';
+import { WeatherData } from './models/Weather';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'clima';
+export class AppComponent implements OnInit {
+  cidadeSelecionada: string = ''
+  showWeatherComponents: boolean = false;
+  service: any;
+  clima: WeatherData | undefined;
+
+  constructor(service: ClimaService) {
+    this.service = service;
+  }
+
+  ngOnInit() {
+    // Agora você pode usar this.climaService para chamar métodos do serviço
+  }
+
+ onCidadeSelecionada(cidade: any) {
+    this.service.getClimaPorCidade(cidade).subscribe((c: WeatherData) => {
+      this.clima = c;
+
+      if (this.clima) {
+        this.showWeatherComponents = true;
+      }
+    });
+  } 
 }

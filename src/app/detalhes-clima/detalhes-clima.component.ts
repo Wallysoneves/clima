@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { WeatherData } from '../models/Weather';
 
 @Component({
   selector: 'app-detalhes-clima',
-  standalone: true,
-  imports: [],
   templateUrl: './detalhes-clima.component.html',
-  styleUrl: './detalhes-clima.component.css'
+  styleUrls: ['./detalhes-clima.component.css']
 })
 export class DetalhesClimaComponent {
+
+  @Input() clima: WeatherData | undefined;
 
 }

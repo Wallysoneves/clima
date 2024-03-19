@@ -1,0 +1,14 @@
+::ng-deep .mat-card-header {
+    background-color: gold !important; /* Altera a cor de fundo do cabeçalho para dourado */
+    padding: 5px !important;
+   }
+   
+   ::ng-deep .mat-card-content {
+    background-color: #f8f9fa; /* Altera a cor de fundo do conteúdo para um cinza claro */
+    padding: 5px !important;
+   }
+
+   .spacing {
+    margin-bottom: 20px;
+   }
+   
